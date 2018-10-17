@@ -135,3 +135,22 @@ examples:
       threshold: 75
       label:
         text: Full address
+
+  - name: in Welsh
+    data:
+      id: textarea-in-welsh
+      name: address-in-welsh
+      maxlength: 10
+      welsh: true
+      label:
+        text: Full address (in Welsh)
+        isPageHeading: true
+
+  - name: in Welsh with word count
+    data:
+      id: word-count-in-welsh
+      name: word-count-in-welsh
+      maxwords: 10
+      welsh: true
+      label:
+        text: Full address (in Welsh)
